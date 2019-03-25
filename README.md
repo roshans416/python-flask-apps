@@ -12,7 +12,7 @@ This simple Flask app when accessed will give "Hello World" JSON response. App f
 
 `requirements.txt`: List of Python libraries needed for the app.
 
-### How to deploy using Docker container?
+#### How to deploy using Docker container?
 
 ```
 docker build . -t python-hello-world:v1
@@ -29,7 +29,7 @@ This  app will accessed will connect to **hello-world-app** and displays the mes
 
 `requirements.txt`: List of Python libraries needed for the app.
 
-### How to build Docker Image?
+#### How to deploy using Docker container?
 
 ```
 docker build . -t python-hello-world-reverse:v1
