@@ -40,7 +40,8 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} hell
 docker run -itd -p 9080:8080 python-hello-world-reverse:v1 $IP_ADDR  8080
 ```
 where 
-Replace **IP_ADDR** with the IP Address of **hello-world-app**
+**IP_ADDR** is the IP Address of **hello-world-app**. Replace it with your value.
+
 **8080** is the port number of hello-world-app
 
 
