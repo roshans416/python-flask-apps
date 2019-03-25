@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app: hello-world
+  name: hello-world
+  selfLink: /api/v1/namespaces/default/services/hello-world
+spec:
+  externalTrafficPolicy: Cluster
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: hello-world
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
