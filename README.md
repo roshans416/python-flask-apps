@@ -35,7 +35,7 @@ This  app will accessed will connect to **hello-world-app** and displays the mes
 docker build . -t python-hello-world-reverse:v1
 
 # Get the ip address of hello-world-app container
-docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} hello-world 
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' hello-world 
 
 docker run -itd -p 9080:8080 python-hello-world-reverse:v1 $IP_ADDR  8080
 ```
