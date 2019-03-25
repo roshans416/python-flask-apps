@@ -1,6 +1,6 @@
 # python-flask-apps
 
-**This repo consists of two Python Flask apps
+**This repo consists of two Python Flask apps**
 
 ## hello-world-app
 
