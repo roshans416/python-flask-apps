@@ -45,7 +45,7 @@ where
 **8080** is the port number of hello-world-app
 
 
-##Deploy to K8S
+## Deploy to K8S
 
 **kubectl should be installed and configured to connect with a Kubernetes cluster**
 
