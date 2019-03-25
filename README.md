@@ -39,10 +39,10 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} hell
 
 docker run -itd -p 9080:8080 python-hello-world-reverse:v1 $IP_ADDR  8080
 ```
-where 
+where,  
 **IP_ADDR** is the IP Address of **hello-world-app**. Replace it with your value.
 
-**8080** is the port number of hello-world-app
+**8080** is the port number of hello-world-app.
 
 
 ## Deploy to K8S
