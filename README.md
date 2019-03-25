@@ -6,8 +6,10 @@
 
 This simple Flask app when accessed will give "Hello World" JSON response. App files can be found under **python-hello-world/** directory. 
 
-`hello-world-app.py`: Python flask file
+`hello-world-app.py`: Python flask file.
+
 `Dockerfile`: To build Docker image for this app.
+
 `requirements.txt`: List of Python libraries needed for the app.
 
 ### How to deploy using Docker container?
@@ -21,8 +23,10 @@ docker run -itd -p 8080:8080 --name=hello-world python-hello-world:v1
 
 This  app will accessed will connect to **hello-world-app** and displays the message field value in reverse format. App files can be found under **python-hello-world-reverse/** directory. 
 
-`hello-world-app-reverse.py`: Python flask file
+`hello-world-app-reverse.py`: Python flask file.
+
 `Dockerfile`: To build Docker image for this app.
+
 `requirements.txt`: List of Python libraries needed for the app.
 
 ### How to build Docker Image?
