@@ -45,4 +45,20 @@ where
 **8080** is the port number of hello-world-app
 
 
-      
+##Deploy to K8S
+
+**kubectl should be installed and configured to connect with a Kubernetes cluster**
+
+Execute the following script.
+
+```
+./deploy_to_k8s.sh
+```
+This will create a deployment for "hello-world-app" and "hello-world-app-reverse". Also, both services will be exposed using service type "NodePort".
+
+To access the services from browser
+
+```
+minikube service hello-world
+minikube service hello-world-reverse
+```
